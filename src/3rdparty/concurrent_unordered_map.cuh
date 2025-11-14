@@ -25,6 +25,7 @@
 #include <cudf/detail/utilities/device_atomics.cuh>
 #include <cudf/utilities/error.hpp>
 
+#include <thrust/execution_policy.h>
 #include <thrust/pair.h>
 #include <thrust/count.h>
 
